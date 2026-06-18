@@ -1,77 +1,131 @@
-# End-User License Agreement (EULA)
+<!--
+DRAFT — 2026-06-14. Item A3 of the client-rollout plan (EULA / Terms of Service refresh).
+NOT legal advice; have a Texas attorney review A1–A3 together before the first client signature.
+Replaces the 2026-04-02 browsewrap EULA. Kept consistent with the A1 engagement-letter addendum:
+same "Ask Your Books, a service of Atkins CPA, LLC" branding, same AI-disclaimer framing (A1 §2),
+same non-attest limitation-of-liability scope. Privacy link points at the public /privacy route, not GitHub.
+-->
 
-**Atkins CPA Firm — AI Financial Analyst**
+# Terms of Service — Ask Your Books
 
-*Last updated: April 2, 2026*
+**Ask Your Books, a service of Atkins CPA, LLC**
 
-This End-User License Agreement ("Agreement") is a legal agreement between you ("User") and Atkins CPA, LLC ("Company," "we," "us," or "our") governing your use of the Atkins AI Financial Analyst application ("Application").
+*Last updated: June 14, 2026*
 
-By accessing or using the Application, you agree to be bound by the terms of this Agreement. If you do not agree, do not use the Application.
+<!-- 22 TAC §501.83(a)(2): a CPA firm's practice and products must be offered under the licensed firm name.
+     The branding line above is mandatory and must appear verbatim; it also goes in the app footer/login (Workstream B). -->
+
+These Terms of Service ("Terms" or "Agreement") are a legal agreement between you ("User," "you," or "your") and **Atkins CPA, LLC** ("Firm," "we," "us," or "our") governing your access to and use of **Ask Your Books, a service of Atkins CPA, LLC** (the "Platform" or the "Service") — a software application that synchronizes your accounting data and provides AI-assisted analysis of your books.
+
+By accepting these Terms, or by accessing or using the Platform, you agree to be bound by this Agreement. If you do not agree, do not use the Platform.
 
 ## 1. License Grant
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Application solely for the purpose of viewing and analyzing your own financial data synced from QuickBooks Online, subject to the terms of this Agreement.
+We grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Platform solely to view and analyze your own financial data, subject to these Terms. This license exists only for the duration of your authorized access and terminates automatically upon termination of your access or of the underlying engagement with the Firm.
 
 ## 2. Description of Service
 
-The Application provides an AI-powered chat interface that allows authorized users to ask natural-language questions about their QuickBooks Online financial data. The Application:
+The Platform provides an AI-powered chat interface that lets authorized users ask natural-language questions about their financial data. The Platform:
 
-- Syncs financial data from your QuickBooks Online account to a secure database
-- Uses AI models to interpret your questions and query your financial data
-- Returns data-driven answers based on your synced financial information
+- Synchronizes financial data from your connected accounting system (such as QuickBooks Online) into a secure, encrypted database;
+- Uses AI models to interpret your questions and analyze your financial data; and
+- Returns data-driven answers and reports based on your synced financial information.
 
 ## 3. Access and Authorization
 
-- Access to the Application is by invitation only. Your account is created and managed by Atkins CPA, LLC.
-- You are responsible for maintaining the confidentiality of your login credentials.
-- You may only access financial data for the business entity or entities to which you have been granted access.
+- **Access to the Platform is by invitation only.** Your account is created and managed by Atkins CPA, LLC.
+- You are responsible for maintaining the **confidentiality of your login credentials** and for all activity that occurs under your account. Notify the Firm promptly if you suspect any unauthorized use.
+- You may access financial data only for the business entity or entities to which you have been granted access. Data isolation is enforced at the database level.
 
-## 4. Data and Privacy
+## 4. AI Output — Disclaimer and Required Firm Review
 
-- Your financial data is synced from QuickBooks Online and stored in a secure, encrypted database.
-- Data isolation is enforced at the database level — you can only access data associated with your account.
-- AI queries are processed through third-party AI providers (such as Anthropic, OpenAI, or Google). These providers process your queries under their respective API terms, which prohibit training on API data.
-- For more information, see our [Privacy Policy](https://github.com/Atkins-CPA-LLC/legal-docs/blob/main/privacy-policy.md).
+The Platform uses artificial intelligence (AI) and large-language-model technology to generate answers, summaries, and analysis about your books. You understand and agree that:
 
-## 5. Restrictions
+- **AI-generated output may be inaccurate, incomplete, or out of date.** It is generated by automated systems and is presented for informational purposes only.
+- **AI-generated output does not constitute professional, accounting, tax, legal, or investment advice** and does not represent the professional judgment of the Firm unless and until it has been reviewed and validated by the Firm.
+- **You should not rely on or act upon any AI-generated output without first confirming it with the Firm.** Firm review is required before reliance. The Platform is a software tool that supports the Firm's services; it is not a substitute for the professional judgment of a licensed CPA.
+- AI-generated answers may reflect data that is not current (for example, when an accounting sync is delayed). The Platform may display a "data as of" indicator; the absence or presence of that indicator does not guarantee completeness.
+
+For professional advice regarding your financial matters, consult directly with Atkins CPA, LLC.
+
+<!-- Aligns with A1 (engagement-letter addendum) clause 2 and Decision Gate 2 (software-tool classification).
+     Mirror this language with the in-app chat disclaimer (Workstream B5). -->
+
+## 5. Data Ownership and Processing License
+
+- **You own your financial data.** As between you and the Firm, all financial data, records, and content you connect, upload, or otherwise provide to the Platform ("Client Data") remain your property (or the property of the business entity on whose behalf you act).
+- **You grant the Firm a license to process your Client Data.** You grant the Firm and the Platform a limited, non-exclusive, worldwide, royalty-free license to host, store, copy, transmit, display, process, and analyze your Client Data solely as necessary to operate the Platform and to provide the Firm's engaged services to you. This license exists only to deliver the Service and terminates when your Client Data is deleted or de-identified in accordance with these Terms and the Firm's engagement terms, except for copies retained as required by law or by the Firm's professional record-retention obligations.
+- The Firm does not sell your Client Data. The Firm's use of third-party service providers (including AI/LLM providers contractually barred from training on your data) is described in the **Privacy Policy** and consented to in your engagement-letter addendum.
+- Return and deletion of your Client Data at the end of the engagement are governed by your engagement-letter addendum with the Firm (including the records-return timeframes under 22 TAC §501.76).
+
+## 6. Restrictions
 
 You agree not to:
 
-- Share your login credentials with unauthorized individuals
-- Attempt to access data belonging to other users or clients
-- Use the Application for any unlawful purpose
-- Reverse engineer, decompile, or disassemble any part of the Application
-- Use the Application to generate financial advice for third parties without authorization from Atkins CPA, LLC
+- Share your login credentials with, or allow access by, unauthorized individuals;
+- Attempt to access data belonging to other users, clients, or entities;
+- Use the Platform for any unlawful purpose or in violation of these Terms;
+- Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of any part of the Platform, except to the extent this restriction is prohibited by law;
+- Probe, scan, or test the vulnerability of the Platform, or circumvent any security or access-control measure; or
+- Use the Platform to generate financial advice for third parties without authorization from Atkins CPA, LLC.
 
-## 6. Disclaimer of Financial Advice
+## 7. Support, Maintenance, and Availability
 
-The Application presents financial data and analysis. **It does not provide financial, tax, legal, or investment advice.** All AI-generated responses are informational and based on the data available in your QuickBooks Online account. For professional financial advice, consult directly with Atkins CPA, LLC or a qualified professional.
+- **Support.** The Firm provides Platform support through the Firm's designated support channel (for example, the in-app contact link or the email address in Section 13). The Firm targets a response to support requests within **two (2) business days**.
+- **Maintenance.** The Firm may perform scheduled maintenance and updates, which may make the Platform temporarily unavailable. The Firm will use reasonable efforts to schedule planned maintenance outside normal business hours and to provide advance notice of significant planned downtime where practicable.
+- **Availability.** The Firm targets commercially reasonable Platform availability but **does not guarantee any specific uptime or service level.** The Platform depends on third-party services (including cloud hosting, your accounting provider, and AI providers); interruptions in those services may affect availability. The Platform is provided as described in Section 8.
 
-## 7. Disclaimer of Warranties
+## 8. Disclaimer of Warranties
 
-The Application is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the Application will be uninterrupted, error-free, or completely secure.
+The Platform is provided **"AS IS"** and **"AS AVAILABLE"** without warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement. The Firm does not warrant that the Platform will be uninterrupted, error-free, secure, or that AI-generated output will be accurate or complete. Some jurisdictions do not allow the exclusion of certain warranties, so portions of this section may not apply to you.
 
-## 8. Limitation of Liability
+## 9. Limitation of Liability (Non-Attest Services Only)
 
-To the maximum extent permitted by law, Atkins CPA, LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Application, including but not limited to loss of data, loss of profits, or business interruption.
+To the fullest extent permitted by Texas law, and **solely with respect to the non-attest bookkeeping and advisory services and the software provided through the Platform**:
 
-## 9. Termination
+- The Firm shall not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, including but not limited to loss of data, loss of profits, loss of goodwill, or business interruption, arising out of or relating to the Platform or these Terms, even if advised of the possibility of such damages; and
+- **The Firm's total aggregate liability** arising out of or relating to the Platform or these Terms **shall not exceed the total fees paid by you (or by the business entity on whose behalf you use the Platform) to the Firm for the services giving rise to the claim** during the **twelve (12) months** preceding the event giving rise to the claim. Where the Platform is provided as part of a bundled engagement with no separately stated Platform fee, the foregoing cap is measured against the fees paid for the engaged services giving rise to the claim.
 
-We may terminate or suspend your access to the Application at any time, with or without cause, with or without notice. Upon termination, your right to use the Application will immediately cease.
+This limitation applies only to the Firm's non-attest services and the Platform software, and does **not** purport to limit liability for any attest services. The Firm performs no attest work in connection with the Platform. This limitation is **in addition to, and does not enlarge,** any limitation of liability in the Firm's master engagement agreement with the User (or the business entity on whose behalf the User acts); where both apply, the **lower** aggregate cap controls.
 
-## 10. Changes to This Agreement
+<!-- Limitation of liability with a fee cap is valid for NON-ATTEST services only in Texas; it must never extend to attest work.
+     Scope mirrors A1 §5. Fee-cap wording should be confirmed by the Firm's E&O carrier/attorney. Cap measured against bundled
+     engagement fees per Decision Gate 3 (billing bundled for now). -->
 
-We reserve the right to modify this Agreement at any time. Changes will be posted to this page with an updated "Last updated" date. Your continued use of the Application after changes constitutes acceptance of the modified Agreement.
+## 10. Termination
 
-## 11. Governing Law
+We may terminate or suspend your access to the Platform at any time, with or without cause, with or without notice. You may stop using the Platform at any time. Upon termination, your right to use the Platform immediately ceases. Return and deletion of your Client Data following termination are governed by your engagement-letter addendum with the Firm. Sections that by their nature should survive termination (including Sections 5, 8, 9, 11, and 12) survive.
 
-This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without regard to its conflict of law provisions.
+## 11. Privacy
 
-## 12. Contact
+Your use of the Platform is subject to the Firm's **[Privacy Policy](https://app.atkinscpafirm.com/privacy)**, which describes how the Firm collects, uses, stores, and shares information, including the third-party service providers the Platform relies on. The Privacy Policy is incorporated into these Terms by reference.
 
-If you have questions about this Agreement, contact us at:
+## 12. Changes to These Terms
+
+We may modify these Terms from time to time. Changes will be posted at the published Terms URL with an updated "Last updated" date, and material changes may require renewed acceptance at login. Your continued use of the Platform after changes take effect constitutes acceptance of the modified Terms.
+
+## 13. Governing Law
+
+These Terms are governed by and construed in accordance with the laws of the **State of Texas**, without regard to its conflict-of-law provisions. The exclusive venue for any dispute arising out of or relating to these Terms or the Platform shall be the state or federal courts located in the State of Texas, and you consent to the personal jurisdiction of those courts.
+
+## 14. Contact
+
+If you have questions about these Terms, contact us at:
 
 **Atkins CPA, LLC**
 337 Regency Dr
 Allen, TX 75002
 Email: hunter.atkins@atkinscpafirm.com
+
+<!--
+ACCEPTANCE CRITERIA (from 2026-06-10 plan A3):
+- AI-output disclaimer strengthened (inaccurate; not professional advice; firm review required before reliance) — §4, aligned with A1 §2 / Gate 2 ✓
+- Data ownership + firm processing license — §5 ✓
+- Limitation of liability WITH fee cap, non-attest scope — §9 ✓
+- Branding line "Ask Your Books, a service of Atkins CPA, LLC" verbatim (22 TAC §501.83) — header + §intro ✓
+- Stated support/uptime/maintenance expectation — §7 ✓
+- Privacy-policy link fixed to public route https://app.atkinscpafirm.com/privacy (no GitHub) — §11 ✓
+- Kept: invitation-only access (§3), credential confidentiality (§3), restrictions (§6), Texas governing law (§13), termination (§10) ✓
+NOTE: enforceability depends on the first-login clickwrap acceptance event + terms_acceptances table (Workstream B2);
+these Terms are browsewrap until that ships. Have a Texas attorney review A1–A3 before first client signature.
+-->
