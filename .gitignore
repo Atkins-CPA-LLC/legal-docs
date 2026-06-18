@@ -1,0 +1,7 @@
+# Signed, confidential third-party contracts (e.g. the E2B / FoundryLabs NDA + DPA).
+# These are "Proprietary Information" under the E2B NDA — keep them on disk here
+# for reference, but NEVER commit or push them. The vendor register cites them by
+# location + execution date instead of embedding the text.
+vendor-contracts/
+*.pdf
+*.docx
